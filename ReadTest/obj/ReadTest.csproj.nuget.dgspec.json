@@ -33,6 +33,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "D:\\git\\smdr\\SMDR.DataAccessLayer\\SMDR.DataAccessLayer.csproj": {
+                "projectPath": "D:\\git\\smdr\\SMDR.DataAccessLayer\\SMDR.DataAccessLayer.csproj"
+              },
               "D:\\git\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj": {
                 "projectPath": "D:\\git\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj"
               }
@@ -48,7 +51,83 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
             "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\git\\smdr\\SMDR.DataAccessLayer\\SMDR.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\git\\smdr\\SMDR.DataAccessLayer\\SMDR.DataAccessLayer.csproj",
+        "projectName": "SMDR.DataAccessLayer",
+        "projectPath": "D:\\git\\smdr\\SMDR.DataAccessLayer\\SMDR.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Hasan\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\smdr\\SMDR.DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\git\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj": {
+                "projectPath": "D:\\git\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.2, )"
             }

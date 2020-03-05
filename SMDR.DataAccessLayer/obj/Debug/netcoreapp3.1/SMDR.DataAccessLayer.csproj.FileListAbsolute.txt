@@ -1,0 +1,11 @@
+D:\git\smdr\SMDR.DataAccessLayer\bin\Debug\netcoreapp3.1\SMDR.DataAccessLayer.deps.json
+D:\git\smdr\SMDR.DataAccessLayer\bin\Debug\netcoreapp3.1\SMDR.DataAccessLayer.dll
+D:\git\smdr\SMDR.DataAccessLayer\bin\Debug\netcoreapp3.1\SMDR.Infrastructure.dll
+D:\git\smdr\SMDR.DataAccessLayer\bin\Debug\netcoreapp3.1\SMDR.Infrastructure.pdb
+D:\git\smdr\SMDR.DataAccessLayer\obj\Debug\netcoreapp3.1\SMDR.DataAccessLayer.csprojAssemblyReference.cache
+D:\git\smdr\SMDR.DataAccessLayer\obj\Debug\netcoreapp3.1\SMDR.DataAccessLayer.AssemblyInfoInputs.cache
+D:\git\smdr\SMDR.DataAccessLayer\obj\Debug\netcoreapp3.1\SMDR.DataAccessLayer.AssemblyInfo.cs
+D:\git\smdr\SMDR.DataAccessLayer\obj\Debug\netcoreapp3.1\SMDR.DataAccessLayer.csproj.CopyComplete
+D:\git\smdr\SMDR.DataAccessLayer\bin\Debug\netcoreapp3.1\SMDR.DataAccessLayer.pdb
+D:\git\smdr\SMDR.DataAccessLayer\obj\Debug\netcoreapp3.1\SMDR.DataAccessLayer.dll
+D:\git\smdr\SMDR.DataAccessLayer\obj\Debug\netcoreapp3.1\SMDR.DataAccessLayer.pdb

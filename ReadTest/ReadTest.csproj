@@ -6,10 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.2" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SMDR.DataAccessLayer\SMDR.DataAccessLayer.csproj" />
     <ProjectReference Include="..\SMDR.Infrastructure\SMDR.Infrastructure.csproj" />
   </ItemGroup>
 
