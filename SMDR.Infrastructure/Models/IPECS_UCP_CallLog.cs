@@ -3,12 +3,7 @@ using System.Dynamic;
 
 namespace SMDR.Infratructure.Models
 {
-    public interface ICallLog
-    {
-        string Raw { get; set; }
-        void Enhance();
-    }
-    public class CallLog :ICallLog
+    public class IPECS_UCP_CallLog :ICallLog
     {
         public string NO { get; set; }
         public string STA { get; set; }

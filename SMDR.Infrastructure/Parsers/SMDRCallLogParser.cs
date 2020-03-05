@@ -9,7 +9,7 @@ namespace SMDR.Infratructure
     using Base;
     using Models;
     public abstract class SMDRParserBase<TCallLog> : IParser<IEnumerable<TCallLog>>
-        where TCallLog : CallLog
+        where TCallLog : class,ICallLog
     {
         public SMDRParserBase(IParserSettings settings)
         {

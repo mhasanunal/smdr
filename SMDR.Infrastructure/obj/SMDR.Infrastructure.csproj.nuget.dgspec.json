@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hasan\\Desktop\\IPECS_SMDR\\SMDR\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj": {}
+    "D:\\git\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hasan\\Desktop\\IPECS_SMDR\\SMDR\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj": {
+    "D:\\git\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hasan\\Desktop\\IPECS_SMDR\\SMDR\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj",
+        "projectUniqueName": "D:\\git\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj",
         "projectName": "SMDR.Infrastructure",
-        "projectPath": "C:\\Users\\Hasan\\Desktop\\IPECS_SMDR\\SMDR\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj",
+        "projectPath": "D:\\git\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hasan\\Desktop\\IPECS_SMDR\\SMDR\\SMDR.Infrastructure\\obj\\",
+        "outputPath": "D:\\git\\smdr\\SMDR.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

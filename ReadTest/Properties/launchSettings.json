@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ReadTest": {
+      "commandName": "Project",
+      "commandLineArgs": "10.100.106.2 1982"
+    }
+  }
+}

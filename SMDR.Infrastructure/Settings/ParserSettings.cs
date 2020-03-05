@@ -4,7 +4,7 @@ namespace SMDR.Infratructure.Configuration
 {
 using Auxilary;
 using Base;
-    public class DefaultSettings : IParserSettings
+    public abstract class ParserSettings : IParserSettings
     {
         public IEnumerable<Column> Columns { get; set; }
         public string Delimiter { get; set; } = ((char)0x20).ToString();
