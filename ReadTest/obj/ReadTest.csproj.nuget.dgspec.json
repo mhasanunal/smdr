@@ -1,43 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git\\smdr\\ReadTest\\ReadTest.csproj": {}
+    "C:\\Users\\Hasan\\Source\\Repos\\smdr\\ReadTest\\ReadTest.csproj": {}
   },
   "projects": {
-    "D:\\git\\smdr\\ReadTest\\ReadTest.csproj": {
+    "C:\\Users\\Hasan\\Source\\Repos\\smdr\\ReadTest\\ReadTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\smdr\\ReadTest\\ReadTest.csproj",
+        "projectUniqueName": "C:\\Users\\Hasan\\Source\\Repos\\smdr\\ReadTest\\ReadTest.csproj",
         "projectName": "ReadTest",
-        "projectPath": "D:\\git\\smdr\\ReadTest\\ReadTest.csproj",
+        "projectPath": "C:\\Users\\Hasan\\Source\\Repos\\smdr\\ReadTest\\ReadTest.csproj",
         "packagesPath": "C:\\Users\\Hasan\\.nuget\\packages\\",
-        "outputPath": "D:\\git\\smdr\\ReadTest\\obj\\",
+        "outputPath": "C:\\Users\\Hasan\\Source\\Repos\\smdr\\ReadTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\git\\smdr\\SMDR.DataAccessLayer\\SMDR.DataAccessLayer.csproj": {
-                "projectPath": "D:\\git\\smdr\\SMDR.DataAccessLayer\\SMDR.DataAccessLayer.csproj"
+              "C:\\Users\\Hasan\\Source\\Repos\\smdr\\SMDR.DataAccessLayer\\SMDR.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Hasan\\Source\\Repos\\smdr\\SMDR.DataAccessLayer\\SMDR.DataAccessLayer.csproj"
               },
-              "D:\\git\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj": {
-                "projectPath": "D:\\git\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj"
+              "C:\\Users\\Hasan\\Source\\Repos\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Hasan\\Source\\Repos\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj"
               }
             }
           }
@@ -50,6 +49,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -70,50 +70,56 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.28, 3.1.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\git\\smdr\\SMDR.DataAccessLayer\\SMDR.DataAccessLayer.csproj": {
+    "C:\\Users\\Hasan\\Source\\Repos\\smdr\\SMDR.DataAccessLayer\\SMDR.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\smdr\\SMDR.DataAccessLayer\\SMDR.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Hasan\\Source\\Repos\\smdr\\SMDR.DataAccessLayer\\SMDR.DataAccessLayer.csproj",
         "projectName": "SMDR.DataAccessLayer",
-        "projectPath": "D:\\git\\smdr\\SMDR.DataAccessLayer\\SMDR.DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\Hasan\\Source\\Repos\\smdr\\SMDR.DataAccessLayer\\SMDR.DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\Hasan\\.nuget\\packages\\",
-        "outputPath": "D:\\git\\smdr\\SMDR.DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Hasan\\Source\\Repos\\smdr\\SMDR.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\git\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj": {
-                "projectPath": "D:\\git\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj"
+              "C:\\Users\\Hasan\\Source\\Repos\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Hasan\\Source\\Repos\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj"
               }
             }
           }
@@ -126,6 +132,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -138,7 +145,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -147,38 +155,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\git\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj": {
+    "C:\\Users\\Hasan\\Source\\Repos\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Hasan\\Source\\Repos\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj",
         "projectName": "SMDR.Infrastructure",
-        "projectPath": "D:\\git\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Hasan\\Source\\Repos\\smdr\\SMDR.Infrastructure\\SMDR.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Hasan\\.nuget\\packages\\",
-        "outputPath": "D:\\git\\smdr\\SMDR.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Hasan\\Source\\Repos\\smdr\\SMDR.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -190,13 +197,15 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -205,7 +214,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

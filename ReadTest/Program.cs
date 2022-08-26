@@ -17,7 +17,7 @@ namespace ReadTest
         static CallContext context;
         static void Main(string[] args)
         {
-            var conString = @"Data Source=HASAN_EXPER\SQLEXPRESS;Initial Catalog=SMDR;Integrated Security=SSPI;User ID=sa;Password=Hh105650;";
+            var conString = @"Data Source=HASANMONSTER\SQLEXPRESS;Initial Catalog=SMDR;Integrated Security=SSPI;User ID=sa;Password=Hh105650;";
             string UCP_2400_IP_ADDRESS = args[0];
             int PORT = int.Parse(args[1]);
             var options = new DbContextOptionsBuilder<CallContext>()
@@ -37,6 +37,7 @@ namespace ReadTest
         }
         private static void Listener_OnMessageRecieved(object sender, string recievedRecord)
         {
+            Console.WriteLine(recievedRecord);
             foreach (var callLog in parser.Parse(recievedRecord))
             {
                 context.CallLogs.Add(new SMDR.DataAccessLayer.Models.CallLog {

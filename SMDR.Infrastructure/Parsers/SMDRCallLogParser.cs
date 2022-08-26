@@ -9,7 +9,7 @@ namespace SMDR.Infratructure
     using Base;
     using Models;
     public abstract class SMDRParserBase<TCallLog> : IParser<IEnumerable<TCallLog>>
-        where TCallLog : class,ICallLog
+        where TCallLog : class, ICallLog
     {
         public SMDRParserBase(IParserSettings settings)
         {
@@ -56,22 +56,11 @@ namespace SMDR.Infratructure
                 try
                 {
                     if (column == null)
-                    {
                         continue;
-                    }
-                    var value = "";
-                    //if (line.Length < ((column.StartIndex + column.Length)))
-                    //{
-                    //    value = line.Substring(column.StartIndex - 1, column.Length);
-                    //}
-                    //else
-                    //{
-                        value = line.Substring(column.StartIndex, column.Length);
-                    //}
+                    var value = line.Substring(column.StartIndex, column.Length);
+
                     if (Settings.TrimWhiteSpaces)
-                    {
                         value = value.TrimStart().TrimEnd();
-                    }
                     instance.GetType().GetProperty(item.Name).SetValue(instance, value);
                 }
                 catch (Exception e)

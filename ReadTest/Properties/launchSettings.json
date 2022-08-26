@@ -2,7 +2,7 @@
   "profiles": {
     "ReadTest": {
       "commandName": "Project",
-      "commandLineArgs": "10.100.106.2 1982"
+      "commandLineArgs": "10.100.106.2 1992"
     }
   }
 }
